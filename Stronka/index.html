@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podróże Po Polsce</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Css/styles.css">
+</head>
+<body>
+    <section class="main-page">
+    <div class="wrapper">
+    <img src="./Image/logo.png"alt="GoIT" class="main-page-logo"/>
+   <div class="main-page-container">
+   
+    <h2 class="main-page-title" >Wycieczki po Polsce</h2>
+    <h1 class="main-page-city-name">Katowice</h1>
+   <p class="main-page-description">Katowice to miasto pełne kontrastów: z jednej strony piękne zabytkowe kamienice, z drugiej nowoczesne wieżowce. Dawniej miasto było skupione wokół wydobycia węgla oraz produkcji różnych materiałów w hutach i do dziś, w wyobraźni wielu osób spoza regionu, jest utożsamiane z ciężkim przemysłem i kopalnianym krajobrazem.</p>
+<Button class="registration-btn">Zarejestruj się</Button>
+</div>
+</div>
+</section>
+<section class="gallery-page">
+    <img src="./Image/Content/Herb.png"alt="Herb Katowic"class="gallery-page-logo">
+    <h3 class="gallery-title">Katowice – miasto górników</h3>
+    <div class="wrapper">
+    <div class="gallery-container">
+    <div class="gallery-item">
+            <img src="./Image/Content/Katowicki Spodek.png"alt="Spodeczek"class="gallery-item-img"/>
+       <p class="gallery-item-text"> Katowicki Spodek</p>
+    </div>
+    <div class="gallery-item">
+        <img src="./Image/Content/Nikiszowiec.png"alt="NIki"class="gallery-item-img"/>
+   <p class="gallery-item-text">  Nikiszowiec</p>
+      </div> 
+      <div class="gallery-item">
+        <img src="./Image/Content/Muzeum Śląskie.png"alt="Kościółek"class="gallery-item-img"/>
+   <p class="gallery-item-text"> Muzeum ŚląskieKościół</p>
+      </div> 
+   
+        <div class="gallery-item">
+            <img src="./Image/Content/Kościół Niepokalanego Poczęcia NMP.png"alt="NMP"class="gallery-item-img"/>
+       <p class="gallery-item-text"> Niepokalanego Poczęcia NMP</p>
+          </div> 
+   
+        <div class="gallery-item">
+            <img src="./Image/Content/Wieża spadochronowa.png"alt="Wieża"class="gallery-item-img"/>
+       <p class="gallery-item-text">Wieża spadochronowa</p>
+          </div> 
+        
+        <div class="gallery-item">
+            <img src="./Image/Content/Teatr Śląski im. Stanisława Wyspiańskiego.png"alt="Wyspiański-Tatr"class="gallery-item-img"/>
+       <p class="gallery-item-text"> Teatr Śląski im. Stanisława Wyspiańskiego</p>
+          </div> 
+       
+    </div>    
+    </div>
+</section>
+<section class="contacts-page">
+    <h3 class="contacts-page-title">Kontakt</h3>
+    <p class="contacts-page-description">Skontaktuj się z nami, jeśli chcesz zarezerwować wycieczkę. Możesz również podać swoje preferencje dotyczące wycieczki w specjalnym polu.
+    </p>
+    <form action=""class="contacts-form" netlify>
+        <div class="contacts-form-field">
+            <label for="user-name"class="contacts-form-field-label">Imię</label>
+            <input 
+            id="user-name"
+            type="text"
+            name="Imię"
+            class="contacts-form-field-input"
+            />
+        </div>
+           <div class="contacts-form-field">
+            <label for="user-mail"class="contacts-form-field-label">Email</label>
+            <input 
+            id="user-mail"
+            type="text"
+            name="Email"
+            class="contacts-form-field-input"
+            />
+        </div>
+        <div class="contacts-form-field">
+            <label for="user-text" class="contacts-form-field-label">Wiadomość</label>
+            <textarea
+            id="user-text"
+            name="Wiadomość"
+            class="contacts-form-textarea"></textarea>
+        </div>
+        <button class="contacts-form-btn" type="submit">Wyślij wiadomość</button>
+    </form>
+</section>
+</body>
+</html>

@@ -1,0 +1,219 @@
+html,body{
+    height:100%;
+    margin:0;
+    font-family:'Montserrat',sans-serif;
+}
+.main-page{
+    
+ 
+    background-image:url(../Image/Katowice\ Main.png);
+    background-size:cover;
+    padding-bottom:118px;
+    padding-top:24px;
+    padding-left:53px;
+    height: 800px;
+    
+
+}
+.wrapper{
+    
+    width:1360px;
+    margin:auto;
+}
+.main-page-logo{
+    margin-top:49px;
+    padding-left:97px;
+}
+.main-page-container{
+    
+    padding:53px;
+    width:790px;
+    border-radius:60px;
+    margin-top:21px;
+    margin-left:97px;
+    background-color: #fff;
+    box-sizing:border-box;
+
+}
+.main-page-title{
+font-size:24px;
+font-weight: 500px;
+margin-bottom:58px;
+margin-top:0;
+
+}
+.main-page-city-name{
+    line-height:64px;
+    font-size:48px;
+    font-weight:700px;
+    margin-top: 0;
+    margin-bottom: 58px;
+}
+.main-page-description{
+   
+  
+    font-size:20px;
+    line-height:24px;
+    font-weight:400px;
+    margin-top:0;
+    margin-bottom: 39px;
+ 
+}
+.registration-btn{
+
+
+background: #FF6B0A;
+border-radius: 9px;
+font-weight: 500;
+font-size: 24px;
+margin-bottom:53px;
+color: #FCF3F3 ;
+border:none;
+cursor: pointer;
+padding:20px;
+
+
+
+
+
+}
+.gallery-page-logo{
+     width: 52px;
+    height:65px;
+}
+.gallery-page{
+    padding-top:100px;
+    padding-bottom:90px;
+    text-align:center;
+
+}
+.gallery-title{
+ 
+font-style: italic;
+font-weight: 700;
+font-size: 40px;
+line-height: 64px;
+color: #1B1D1F;
+}
+.gallery-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.gallery-item-img{
+    width:440px;
+    height:293px;
+    border-radius: 60px;
+}
+.gallery-item{
+    width: calc (33% - ( 28px * 2/3 ));
+    margin-bottom:10px;
+
+}
+.gallery-item-text{
+ font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+align-items: center;
+color: #000000;
+}
+.contacts-page{
+    
+   background-color: #EFF5fa;
+
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom:80px;
+    
+  
+}
+.contacts-page-title{
+  
+font-weight: 700;
+font-size: 40px;
+line-height: 64px;
+color: #000000;
+margin-top: 0;
+margin-bottom: 14px;
+text-align:center;
+
+
+
+
+}
+.contacts-page-description{
+margin:auto;
+margin-bottom: 47px;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0;
+text-align: center;
+width:1120px;
+color: #000000;
+
+
+
+}
+.contacts-form{
+
+    text-align: center;
+    width:460px;
+    margin:auto;
+}
+.contacts-form-field{
+    display:flex;
+    flex-direction: column;
+align-items: flex-start;
+margin-top: auto;
+width:100%;
+margin-bottom:24px;
+}
+.contacts-form-field-input{
+   
+width: 100%;
+height: 60px;
+font-weight: 500;
+font-size: 24px;
+line-height: 24px;
+border-radius:8px;
+padding:0 8px;
+border:1px solid #8BC4FF;
+background-color:#fff;
+box-sizing:border-box;
+
+
+}
+.contacts-form-textarea{
+    font-family:"Montserrat",sans-serif;
+    width: 100%;
+    height: 200px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    border-radius:8px;
+    padding:0 8px;
+    border:1px solid #8BC4FF;
+    background-color:#fff;
+    box-sizing:border-box; 
+}
+.contacts-form-field-label{
+    /* Wiadomość */
+text-align:left;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 24px;
+color: #000000;
+}
+.contacts-form-btn{
+background: #FF6B0A;
+border-radius: 9px;
+font-weight: 500;
+font-size: 24px;
+margin-bottom:53px;
+color: #FCF3F3 ;
+border:none;
+cursor: pointer;
+padding:10px 10px 10px 10px;
+}
